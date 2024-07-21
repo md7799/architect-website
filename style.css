@@ -176,13 +176,15 @@
     .features {
       flex-direction: column;
     }
-    .ten-years-badge, footer p {
+    .ten-years-badge {
       position: static;
       max-width: 300px;
     }
      footer p {
       padding: 20px;
-      border: 20px;
+      border: 20px 20px;
+      margin: 0;
+
     }
     .feature-img img {
       width: 90%;
